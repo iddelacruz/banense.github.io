@@ -15,12 +15,12 @@ jobs:
             dotnet-version: 3.1.x
 
         # Run tests
-        - name: Test
-          run: dotnet test
+        #- name: Test
+         # run: dotnet test
 
         # Generate the website
         - name: Publish
-          run: dotnet publish mypersonalwebapp.csproj --configuration Release
+          run: dotnet publish iddelacruz.csproj --configuration Release
 
         # Publish the website
         - name: GitHub Pages action
