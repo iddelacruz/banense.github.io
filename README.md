@@ -1,2 +1,0 @@
-# iddelacruz.github.io
-### Example
